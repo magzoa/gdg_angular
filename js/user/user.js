@@ -27,7 +27,9 @@ angular.module('userModule',[])
 	.directive('userForm',function(){
 		return {
 			templateUrl:'js/user/user-form.html',
-			controller:function(){
+			controller:function(userServiceFactory){
+
+
 
 			}
 		}
